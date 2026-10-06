@@ -277,8 +277,7 @@ def update_incident(incident_id):
 # START SYSTEM
 # =========================
 
+create_database()
+
 if __name__ == "__main__":
-
-    create_database()
-
     app.run(debug=True)
